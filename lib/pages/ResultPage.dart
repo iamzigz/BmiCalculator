@@ -76,16 +76,16 @@ class ResultPage extends StatelessWidget {
                   ),
                 )),
               ),
-              const SizedBox(height: 20),
-              Container(
-                decoration: BoxDecoration(
-                  color: Theme.of(context).colorScheme.primaryContainer,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                padding: const EdgeInsets.all(10),
-                child: const Text(
-                    "Your BMI is 20.7, indicating your weight is in the Normal category for adults of your height.  For your height, a normal weight range wouldbe from 53.5 to 72 kilograms.Maintaining a healthy weight may reduce the risk of chronic diseases associated with overweight and obesity."),
-              ),
+              // const SizedBox(height: 20),
+              // Container(
+              //   decoration: BoxDecoration(
+              //     color: Theme.of(context).colorScheme.primaryContainer,
+              //     borderRadius: BorderRadius.circular(10),
+              //   ),
+              //   padding: const EdgeInsets.all(10),
+              //   child: const Text(
+              //       "Your BMI is, indicating your weight is in the Normal category for adults of your height.  For your height, a normal weight range wouldbe from 53.5 to 72 kilograms.Maintaining a healthy weight may reduce the risk of chronic diseases associated with overweight and obesity."),
+              // ),
               const SizedBox(height: 20),
               MyRactButton(
                 onPress: () {
